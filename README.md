@@ -48,7 +48,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import scuminabs from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-scuminabs@esm/index.mjs';
+import scuminabs from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-scuminabs@v0.1.1-esm/index.mjs';
 ```
 
 #### scuminabs( N, x, strideX, y, strideY )
@@ -163,7 +163,7 @@ scuminabs.ndarray( 4, x, 2, 1, y, -1, y.length-1 );
 
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@esm/index.mjs';
 import Float32Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float32@esm/index.mjs';
-import scuminabs from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-scuminabs@esm/index.mjs';
+import scuminabs from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-scuminabs@v0.1.1-esm/index.mjs';
 
 var x = discreteUniform( 10, -50, 50, {
     'dtype': 'float32'
